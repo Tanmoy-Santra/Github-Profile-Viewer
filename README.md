@@ -1,7 +1,7 @@
 # Github-Profile-Viewer
 Enter your github username and get profile details
 
-[OpenAI]('https://github-profile-viewer-pro.netlify.app/')
+[click here](https://github-profile-viewer-pro.netlify.app/)
 
 # Demo
 ![page1](https://github.com/Tanmoy-Santra/Github-Profile-Viewer/assets/123796923/81d7f1b8-b7a3-4a93-8183-639d61c5b2a2)
