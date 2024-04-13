@@ -1,0 +1,27 @@
+.profile-card {
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: rgb(152, 150, 150);
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+body{
+    text-align: center;
+    background-color: #ccc;
+}
+button{
+    padding: 3.5px;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+}
