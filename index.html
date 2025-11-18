@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">   
-    <title>GitHub Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <title>GitHub Profile Viewer</title>
 </head>
 <body>
-    <input type="text" id="username" placeholder="Enter GitHub Username">
-    <button onclick="fetchProfile()">Go</button>
-    <div id="showprofile"><div class="container"><h2>Enter your Github username<br>& get Profile details</h2>
-    <img style="height: 250px;" src="images\pngegg (43).png" alt=""></div></div>
+
+    <h2>Enter your Github username<br>& get Profile details</h2>   
+    <input type="text" id="username" placeholder="Enter GitHub Username" autocomplete="off">  
+    <div id="suggestions"></div>    
+    <div id="loader" class="loader" style="display:none;"></div>   
+    <div id="showprofile">
+        <div class="container">
+            <img style="height: 250px;" src="images/pngegg (43).png" alt="">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
-    <script src="script.js">
-       
-    </script>
 </html>
